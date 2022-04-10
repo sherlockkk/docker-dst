@@ -153,6 +153,8 @@ FROM ubuntu:18.04
 docker pull yancccccc/dst:latest   # yancccccc/dst:latest 替换为自己的镜像名称
 
 ## 运行
+docker run -it --name dst -p 10889:10889/udp -p 10999:10999/udp -p 10998:10998/udp sherlockkk-dst:v1
+
 docker run -itd --name dst -p 10889:10889/udp -p 10999:10999/udp -p 10998:10998/udp yancccccc/dst:latest   # yancccccc/dst:latest 替换为自己的镜像名称
 
 ## 10889、10999、10998三个端口可以修改Dockerfile自行设置，
