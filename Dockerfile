@@ -28,7 +28,7 @@ RUN set -x \
     && mkdir -p /root/github \
     && mkdir -p /root/.klei/DoNotStarveTogether \
     && cd /root/github \
-    && git clone https://github.com/yanxin152133/docker-dst.git \
+    && git clone https://github.com/sherlockkk/docker-dst.git \
     && mv /root/github/docker-dst/Cluster_1 /root/.klei/DoNotStarveTogether \
     && mv /root/github/docker-dst/mods/* /root/DST/mods \
     && rm -rf /root/github \
